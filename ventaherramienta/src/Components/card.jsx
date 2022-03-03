@@ -1,6 +1,8 @@
 import React from 'react';
 import herramientas from './heramientas.jpg';
 import principal from './principal.jpg';
+import Cart from './Cart';
+import Itemlist from './Itemlist';
 
 const Card = () => {
   return (
