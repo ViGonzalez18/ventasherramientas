@@ -1,8 +1,12 @@
 import React from "react";
+import Item from "./Item";
 
 const Itemlist = () =>{
     return (
-        <h2>Herramientas electricas</h2>
+        <div>
+            <h2>Lista de Productos</h2>
+            <Item/>
+        </div>
     );
 }
 
