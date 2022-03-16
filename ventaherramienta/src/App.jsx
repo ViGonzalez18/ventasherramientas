@@ -1,6 +1,7 @@
 import './App.css';
 import Card from './Components/card';
 import Itemlist from './Components/Itemlist';
+import ItemDetailConteiner from './Components/ItemDetailConteiner';
 
 
 function App() {
@@ -8,6 +9,7 @@ function App() {
    <div>
       <Card/>
       <Itemlist/>
+      <ItemDetailConteiner/>
    </div>
   );
 }
