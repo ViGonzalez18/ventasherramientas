@@ -16,7 +16,7 @@ const ItemListConteiner = () => {
  
     ,[]);
  
-    if(item.length===0 ){
+    if(item.length===1 ){
         return <h2>Cargando ...</h2>
  
     }

@@ -9,28 +9,28 @@ const Card = () => {
       <header className="">
        
 
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-    <div class="container-fluid">
-    <a class="navbar-brand" href="#">
-       <img src={herramientas} alt="" width="30" height="24" class="d-inline-block align-text-top"/> 
+    <nav className="navbar navbar-expand-lg navbar-light bg-light">
+    <div className="container-fluid">
+    <a className="navbar-brand" href="#">
+       <img src={herramientas} alt="" width="30" height="24" className="d-inline-block align-text-top"/> 
       Siempre Herramientas
     </a>
     </div>
-    <div class="container-fluid">
-    <a class="navbar-brand" href="#"></a>
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
+    <div className="container-fluid">
+    <a className="navbar-brand" href="#"></a>
+    <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span className="navbar-toggler-icon"></span>
     </button>
-    <div class="collapse navbar-collapse" id="navbarNav">
-      <ul class="navbar-nav">
-        <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="#">Home</a>
+    <div className="collapse navbar-collapse" id="navbarNav">
+      <ul className="navbar-nav">
+        <li className="nav-item">
+          <a className="nav-link active" aria-current="page" href="#">Home</a>
         </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Mi cuenta</a>
+        <li className="nav-item">
+          <a className="nav-link" href="#">Mi cuenta</a>
         </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Favoritos</a>
+        <li className="nav-item">
+          <a className="nav-link" href="#">Favoritos</a>
         </li>
        
       </ul>
@@ -39,32 +39,32 @@ const Card = () => {
       </nav>
       </header>
       <div>
-      <img src={principal} alt="" width="1000" height="500" class="d-inline-block align-text-top"/> 
+      <img src={principal} alt="" width="1000" height="500" className="d-inline-block align-text-top"/> 
       </div>
       <div>
-      <div class="card-group">
-  <div class="card">
-  <img src={principal} alt="" width="500" height="200" class="d-inline-block align-text-top"/> 
-    <div class="card-body">
-      <h5 class="card-title">Electricas</h5>
-      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-      <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+      <div className="card-group">
+  <div className="card">
+  <img src={principal} alt="" width="500" height="200" className="d-inline-block align-text-top"/> 
+    <div className="card-body">
+      <h5 className="card-title">Electricas</h5>
+      <p className="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+      <p className="card-text"><small className="text-muted">Last updated 3 mins ago</small></p>
     </div>
   </div>
-  <div class="card">
-  <img src={principal} alt="" width="500" height="200" class="d-inline-block align-text-top"/> 
-    <div class="card-body">
-      <h5 class="card-title">Manuales</h5>
-      <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
-      <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+  <div className="card">
+  <img src={principal} alt="" width="500" height="200" className="d-inline-block align-text-top"/> 
+    <div className="card-body">
+      <h5 className="card-title">Manuales</h5>
+      <p className="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+      <p className="card-text"><small className="text-muted">Last updated 3 mins ago</small></p>
     </div>
   </div>
-  <div class="card">
-  <img src={principal} alt="" width="500" height="200" class="d-inline-block align-text-top"/> 
-    <div class="card-body">
-      <h5 class="card-title">Inalambricos</h5>
-      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
-      <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+  <div className="card">
+  <img src={principal} alt="" width="500" height="200" className="d-inline-block align-text-top"/> 
+    <div className="card-body">
+      <h5 className="card-title">Inalambricos</h5>
+      <p className="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+      <p className="card-text"><small className="text-muted">Last updated 3 mins ago</small></p>
     </div>
   </div>
 </div>
